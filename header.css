@@ -1,0 +1,26 @@
+.inline_itens li{
+    display: inline-block;
+    vertical-align: middle;
+}
+.inline_itens ul{
+    margin-left: 25%;
+    display: inline-block;
+    vertical-align: middle;
+}
+header {    
+    position: sticky;
+    background-color: #0C6FF5;
+    color: white;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+}
