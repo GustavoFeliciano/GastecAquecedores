@@ -1,12 +1,10 @@
-.inline_itens li{
-    display: inline-block;
-    vertical-align: middle;
+.teste{
+    padding-left: 25%;
 }
-.inline_itens ul{
-    margin-left: 25%;
-    display: inline-block;
-    vertical-align: middle;
+#Logo{
+    margin-top: 2%;
 }
+
 header {    
     border-bottom-left-radius: 2%;
     border-bottom-right-radius: 2%;
