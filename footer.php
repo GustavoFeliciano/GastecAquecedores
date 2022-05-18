@@ -1,7 +1,7 @@
 <link rel = "stylesheet" href = "footer.css" type="text/css">
 
 <footer>
-    
+    <hr>
     <p>Entre em contato conosco:</p>
     <hr>
     <p><a href = "mailto:Sgasotec@gmail.com">Sgasotec@gmail.com</a></p>
