@@ -1,23 +1,28 @@
 <link rel="stylesheet" href="header.css" type="text/css">
 
 <html>
-    <header>
-        <div class = "inline_itens">
-            <ul>
-                <li>
-                    <a href="index.php"><image src = "Img/Logo.png" width = "50" height = "50"></image></a>  
-                </li>
-            </ul>
-            <ul>
-                <li id = "right">
+    <body>
+        <header>
+            <div class = "inline_itens">
+                <ul>
                     <li>
-                        <a href="index.php">Início</a>
+                        <a href="index.php"><image src = "Img/Logo.png" width = "50" height = "50"></image></a>  
                     </li>
-                    <li>
-                        <a href="contact.php">Contato</a>
+                </ul>
+                <ul>
+                    <li id = "right">
+                        <li>
+                            <a href="index.php">Início</a>
+                        </li>
+                        <li>
+                            <a href="contact.php">Contato</a>
+                        </li>
                     </li>
-                </li>
-            </ul>    
-        </div>
-    </header>
+                </ul>    
+            </div>
+        </header>
+        <?php
+        include_once "footer.php";
+        ?>
+    </body>
 </html>
