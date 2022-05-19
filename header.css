@@ -1,10 +1,20 @@
-.teste{
-    padding-left: 25%;
+.header_nav_bar_div{
+    display: inline;
+}
+
+#right_nav_bar_div{
+    margin-right: 2%;
+}
+header nav a{
+    vertical-align: middle;
+    text-align: center;
 }
 #Logo{
     margin-top: 2%;
 }
-
+header nav{
+    max-height: min-content;
+}
 header {    
     border-bottom-left-radius: 2%;
     border-bottom-right-radius: 2%;
