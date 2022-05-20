@@ -1,0 +1,28 @@
+.intent_home_div{
+    min-width: 100%;
+    min-height: fit-content;
+    max-height: fit-content;
+    max-width: 100%;
+}
+#intent_about_us_div{
+    min-width: 100%;
+    min-height: fit-content;
+    max-height: fit-content;
+    max-width: 100%;
+    display: inline;
+    vertical-align: middle;
+    background: #C4DAF9;
+}
+#about_us_img_div{
+    min-width: 25vw;
+    min-height: 10vh;
+    max-height: 50vh;
+    max-width: 25vw; 
+}
+#about_us_main_img{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+
