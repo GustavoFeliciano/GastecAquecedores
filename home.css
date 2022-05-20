@@ -5,19 +5,18 @@
     max-width: 100%;
 }
 #intent_about_us_div{
-    min-width: 100%;
-    min-height: fit-content;
-    max-height: fit-content;
-    max-width: 100%;
-    display: inline;
-    vertical-align: middle;
     background: #C4DAF9;
 }
+
+/*Image division space*/
+
 #about_us_img_div{
+    display: inline-flex;
+    vertical-align: middle;
     min-width: 25vw;
     min-height: 10vh;
     max-height: 50vh;
-    max-width: 25vw; 
+    max-width: 25vw;
 }
 #about_us_main_img{
     min-width: 100%;
@@ -26,3 +25,13 @@
     max-height: 100%;
 }
 
+/*Text division space*/
+
+#about_us_text_div{
+    display: inline-flex;
+    vertical-align: middle;
+    min-width: 71vw;
+    min-height: 10vh;
+    max-height: 50vh;
+    max-width: 71vw;
+}
