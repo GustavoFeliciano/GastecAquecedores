@@ -5,7 +5,7 @@
         <div class="header_nav_bar_div" id = "left_nav_bar_div">
             <span>
                 <a href="index.php" target="_self">
-                    <image id="Logo" src = "Img/Logo.png" width = "100" height = "100"></image>
+                    <image id="Logo" src = "Img\Header\Logo.png" width = "100" height = "100"></image>
                 </a>
             </span>
             <span>

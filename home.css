@@ -1,14 +1,20 @@
+/*General structural divs*/
 .intent_home_div{
     min-width: 100%;
     min-height: fit-content;
     max-height: fit-content;
     max-width: 100%;
 }
-#intent_about_us_div{
-    background: #C4DAF9;
+
+/*blue divs*/
+
+.intent_home_blue_div{
+    background: rgba(196, 218, 249, .3);
 }
 
-/*Image division space*/
+/*about us div*/
+
+/*Image about us division space*/
 
 #about_us_img_div{
     display: inline-flex;
@@ -25,13 +31,90 @@
     max-height: 100%;
 }
 
-/*Text division space*/
+/*Text about us division space*/
 
 #about_us_text_div{
     display: inline-flex;
     vertical-align: middle;
+    text-align: center;
+    color: black;
     min-width: 71vw;
     min-height: 10vh;
     max-height: 50vh;
     max-width: 71vw;
 }
+#about_us_text_span{
+    min-width: 71vw;
+    min-height: 10vh;
+    max-height: 50vh;
+    max-width: 71vw;
+}
+
+/*services div*/
+
+.services_block_div{
+    display: inline-flex;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+    padding-inline-start: 1.2vw;
+    padding-inline-end: 1.2vw;
+    min-width: 30vw;
+    min-height: 5vh;
+    max-height: 58vh;
+    max-width: 30vw;
+}
+
+.services_samesize_img_div{
+    display: inline-flex;
+    vertical-align: middle;
+    text-align: center;
+    padding-inline-start: 1.2vw;
+    padding-inline-end: 1.2vw;
+    min-width: 30vw;
+    min-height: 5vh;
+    max-height: 58vh;
+    max-width: 30vw;
+}
+
+.services_button{
+    min-width: 5vw;
+    min-height: 5vh;
+    max-height: 7vh;
+    max-width: 7vw;
+    margin-bottom: 2vh;
+    border-radius: 12px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-style: solid;
+    background-color: rgba(196, 218, 249, .3);
+}
+button:hover{
+    cursor: pointer;
+    border-color: black;
+}
+#services_maintenance_button{
+    background-color: rgba(250, 250, 250, 1);
+}
+#services_block_maintenance_div{
+    background-color: rgba(196, 218, 249, .3);
+    border-radius: 3%;
+}
+
+.services_samesize_img{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+.services_span{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+/*Place divs*/
