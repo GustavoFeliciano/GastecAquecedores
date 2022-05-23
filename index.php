@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css" type="text/css">
     <link rel="stylesheet" href="home.css" type="text/css">
+    <!--MapBox references-->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css' rel='stylesheet' />
     <title>Document</title>
 </head>
 <body>
@@ -15,8 +18,18 @@
     
     <div class="intent">
         <div class="intent_home_div" id="above_about_us_div">
-
-            //TODO
+            <hr>
+            <nav id="above_about_us_nav">
+                <div id="intent_above_about_us_div">
+                    <span>
+                        <p><h1>MANUTENÇÃO,
+                             REVISÃO E INSTALAMOS EM SUA CASA OU APARTAMENTO</h1></p>
+                        <p>Com a Gasotec você pode confiar,
+                             afinal trazemos os nossos serviços com qualidade
+                              e comprometimento a você cliente</p>
+                    </span>
+                </div>
+            </nav>
         </div>
     <div class="intent_home_div intent_home_blue_div" id="intent_about_us_div">
             <hr>
@@ -42,19 +55,34 @@
                 <div class="services_block_div">
                     <span class="services_span">
                         <p class="tittle" id="tittle_instalation"><h1>INSTALAÇÃO</h1></p>
+                        <p>Está sofrendo com o inverno?
+                            Precisa de nossos serviços de instalação?
+                             Não se preocupe, com a GasoTec a qualidade é garantida 
+                              e o atendimento é super rápido.
+                               Basta enviar seus dados pelo nosso formulário e enviar uma mensagem a nós e
+                                retornamos em instantes. 
+                                 Agende já e venha ser um dos nossos clientes</p>
                         <button class="services_button"> Agende Agora </button>
                     </span>
                 </div>
                 <div class="services_block_div" id="services_block_maintenance_div">
                     <span class="services_span">
                         <p class="tittle" id="tittle_maintenance"><h1>MANUTENÇÃO</h1></p>
-                        <p>aasasasaas</p>
+                        <p>A instalação de outra empresa ficou ruim? Precisa arrumar a bagunça deles?
+                             Ou então quer previnir que seu aquecedor apresente defeitos,
+                              faça agora sua manutenção ou nos chame para aplicarmos uma revisão em seu produto,
+                               seja ele qual for, com a GasoTec você pode confiar</p>
                         <button class="services_button" id="services_maintenance_button"> Agende Agora </button>
                     </span>
                 </div>
                 <div class="services_block_div">
                     <span class="services_span">
                         <p class="tittle" id="tittle_group_instalation"><h1>INSTAÇÃO CONJUNTA</h1></p>
+                        <p>Condomínio passando com água gelada? Edifício novo sem instalação de aquecedor?
+                             Não importa o seu problema, com a GasoTec você pode confiar.
+                              Temos nosso pacote específico para você síndico ou condômino,
+                               com a instalação conjunta dos apartamentos,
+                                oferecemos um desconto que cabe no seu bolso</p>
                         <button class="services_button"> Agende Agora </button>
                     </span>
                 </div>
@@ -82,7 +110,14 @@
             <hr>
         </div>
         <div class="intent_home_div" id="place_div">
-            //TODO
+        <div id='map' style='width: 400px; height: 300px;'></div>
+        <script>
+            mapboxgl.accessToken = 'pk.eyJ1IjoiZ3VzdGF2b2ZlbGljaWFubyIsImEiOiJjbDNqMmlqMm8xOGRlM2N3MTcwd2F3b2htIn0.H_PaNyIR8VHO5RuUuLyusw';
+            var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11'
+            });
+        </script>
         </div>
     </div>
 
