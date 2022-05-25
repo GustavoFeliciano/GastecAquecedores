@@ -141,3 +141,59 @@ button:hover{
 }
 
 /*Place divs*/
+
+#place_div{
+    min-width: 100%;
+    min-height: 61vh;
+    max-height: fit-content;
+    max-width: 100%;
+}
+#intent_place_nav{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 61vh;
+    max-height: 61vh;
+    margin-left: 1vw;
+}
+#intent_place_div{
+    min-width: 48vw;
+    max-width: 48vw;
+    min-height: 60vh;
+    max-height: 60vh;
+    vertical-align: top;
+    display: inline-block;
+}
+#intent_place_span{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 60vh;
+    max-height: 60vh;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+}
+#address_text_place{
+    text-align: left;
+    font-size: medium;
+}
+#city_text_place{
+    text-align: left;
+    font-size: smaller
+}
+#cep_text_place{
+    text-align: left;
+    font-size: small;
+}
+
+
+
+
+
+
+#map{
+    min-width: 49vw;
+    max-width: 49vw;
+    min-height: 60vh;
+    max-height: 60vh;
+    display: inline-block;
+}
