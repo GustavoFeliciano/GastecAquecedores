@@ -18,17 +18,17 @@
         <div class="intent">
             <div class="intent_home_div" id="above_about_us_div">
                 <hr>
-                <nav id="above_about_us_nav">
-                    <div id="intent_above_about_us_div">
-                        <span>
-                            <p><h1>MANUTENÇÃO,
-                                REVISÃO E INSTALAMOS EM SUA CASA OU APARTAMENTO</h1></p>
-                            <p>Com a Gasotec você pode confiar,
-                                afinal trazemos os nossos serviços com qualidade
-                                e comprometimento a você cliente</p>
-                        </span>
-                    </div>
-                </nav>
+                <div id="intent_above_about_us_div">
+                    <p><h1>MANUTENÇÃO,
+                        REVISÃO E INSTALAMOS EM SUA CASA OU APARTAMENTO</h1></p>
+                    <p>Com a Gasotec você pode confiar,
+                        afinal trazemos os nossos serviços com qualidade
+                        e comprometimento a você cliente.
+                        <br>Confira você mesmo com nossos vídeos:</p>
+                    <video  id="apresentation_video_player" controls>
+                        <source src="Videos\apresentation_video.mp4" type="video/mp4">
+                    </video>
+                </div>
             </div>
             <div class="intent_home_div intent_home_blue_div" id="intent_about_us_div">
                 <hr>

@@ -5,7 +5,7 @@
         <div class="header_nav_bar_div" id = "left_nav_bar_div">
             <span>
                 <a href="index.php" target="_self">
-                    <image id="Logo" src = "Img\Header\Logo.png" width = "100" height = "100"></image>
+                    <image id="Logo" src = "Img\Header\Logo.png"></image>
                 </a>
             </span>
             <span>
@@ -14,9 +14,15 @@
                 </a>
             </span>
         </div>
+        <div id="header_nav_bar_separate_div">
+
+        </div>
         <div class="header_nav_bar_div" id = "right_nav_bar_div">
-            <a href="index.php" target="_self">Início</a>
-            <a ref="contact.php" target="_self">Contato</a>
+            <nav>
+                <a href="index.php" target="_self">Início</a>
+                <a ref="contact.php" target="_self">Contato</a>
+            </nav>    
+        
         </div>
     </nav>
 </header>

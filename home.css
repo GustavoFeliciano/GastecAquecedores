@@ -14,27 +14,35 @@
 
 /*about us div*/
 
-#above_about_us_nav{
-    min-width: 50vw;
-    min-height: 50vw;
-    background-size: 52%;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-image: url("Img/Home Page/about_us_background_img.jpeg");
-}
 #above_about_us_div hr{
     border: none;
     margin: 4px;
 }
+#above_about_us_div{
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: right;
+    background-image: url("Img/Home Page/about_us_background_img.jpeg");
+}
 #intent_above_about_us_div{
-    max-width: 45vw;
-    max-height: 50vh;
-    min-width: 10vw;
-    min-height: 10vh;
+    min-width: 60vw;
+    min-height: fit-content;
+    max-height: fit-content;
+    max-width: 60vw;
+    margin-left: 1vw;
     padding-left: 1vw;
     padding-right: 1vw;
     text-align: left;
     color: black;
+}
+#apresentation_video_player{
+    padding-left: 14vw;
+    display: flex;
+    max-width: 30vw;
+    max-height: min-content;
+    min-width: 5vw;
+    min-height: 5vh;
 }
 
 /*Image about us division space*/
