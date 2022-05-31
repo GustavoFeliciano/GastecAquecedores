@@ -92,17 +92,17 @@
                 <nav>
                     <div class="services_samesize_img_div">
                         <span>
-                            <img class="services_samesize_img" src="Img\Home_page\about_us_main_img.jpeg">
+                            <img class="services_samesize_img" src="Img\Home_page\services_four_sighs_img.jpeg">
                         </span>
                     </div>
                     <div class="services_samesize_img_div">
                         <span>
-                            <img class="services_samesize_img" src="img\Home_page\services_howto_img.png">
+                            <img class="services_samesize_img" src="Img\Home_page\services_howto_img.png">
                         </span>
                     </div>
                     <div class="services_samesize_img_div">
                         <span>
-                            <img class="services_samesize_img" src="img\Home_page\services_forgot_img.jpeg">
+                            <img class="services_samesize_img" src="Img\Home_page\services_forgot_img.jpeg">
                         </span>
                     </div>
                 </nav>
