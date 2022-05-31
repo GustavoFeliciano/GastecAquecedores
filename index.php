@@ -153,7 +153,12 @@
                         });
                     </script>
                 </nav>
-            </div>                   
+            </div>             
+            <div id="whatsapp_button_div">
+                <a href="https://wa.me/5511957285388">
+                    <img id="whatsapp_button_img" src="Img\Home Page\whatsapp_logo.png">
+                </a>
+            </div>      
         </div>
         <?php
         include_once "footer.php"; 
