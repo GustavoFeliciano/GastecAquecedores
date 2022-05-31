@@ -35,7 +35,7 @@
                 <nav>
                     <div id="about_us_img_div">
                         <span>
-                            <img id="about_us_main_img" src="Img\Home Page\about_us_main_img.jpeg">
+                            <img id="about_us_main_img" src="Img\Home_page\about_us_main_img.jpeg">
                         </span>
                     </div>
                     <div id="about_us_text_div">
@@ -92,17 +92,17 @@
                 <nav>
                     <div class="services_samesize_img_div">
                         <span>
-                            <img class="services_samesize_img" src="img\Home Page\services_product_img.jpeg">
+                            <img class="services_samesize_img" src="img\Home_page\services_product_img.jpeg">
                         </span>
                     </div>
                     <div class="services_samesize_img_div">
                         <span>
-                            <img class="services_samesize_img" src="img\Home Page\services_howto_img.png">
+                            <img class="services_samesize_img" src="img\Home_page\services_howto_img.png">
                         </span>
                     </div>
                     <div class="services_samesize_img_div">
                         <span>
-                            <img class="services_samesize_img" src="img\Home Page\services_forgot_img.jpeg">
+                            <img class="services_samesize_img" src="img\Home_page\services_forgot_img.jpeg">
                         </span>
                     </div>
                 </nav>
@@ -156,7 +156,7 @@
             </div>             
             <div id="whatsapp_button_div">
                 <a href="https://wa.me/5511957285388">
-                    <img id="whatsapp_button_img" src="Img\Home Page\whatsapp_logo.png">
+                    <img id="whatsapp_button_img" src="Img\Home_page\whatsapp_logo.png">
                 </a>
             </div>      
         </div>
